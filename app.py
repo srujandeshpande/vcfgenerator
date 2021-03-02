@@ -1,7 +1,8 @@
 import csv
+delimiter = ','
 
 with open('res2.csv', newline='') as f:
-    reader = csv.reader(f, delimiter='\t')
+    reader = csv.reader(f, delimiter=delimiter)
     data = list(reader)
 
 print(data)
