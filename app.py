@@ -1,7 +1,8 @@
 import csv
 delimiter = ','
+filename = 'res.csv'
 
-with open('res2.csv', newline='') as f:
+with open(filename, newline='') as f:
     reader = csv.reader(f, delimiter=delimiter)
     data = list(reader)
 
